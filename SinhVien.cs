@@ -3,7 +3,7 @@ public class SinhVien{
     private string id;
     private string hoten;
     private byte tuoi;
-    //Khai báo các Properties
+    //Hàm tạo Construct
     public SinhVien(string myid, string myhoten, byte mytuoi){
         id = myid;
         hoten = myhoten;
@@ -14,6 +14,7 @@ public class SinhVien{
         hoten = c.hoten;
         tuoi = c.tuoi;
     }
+    //Khai báo các Properties
     public void setID(string myid){id = myid;}
     public string getID(){return id;}
     public void setHoTen(string myhoten){hoten=myhoten;}
