@@ -3,7 +3,7 @@ public class SinhVien{
     private string id;
     private string hoten;
     private byte tuoi;
-    //Hàm tạo Construct
+    //Hàm tạo Constructor
     public SinhVien(string myid, string myhoten, byte mytuoi){
         id = myid;
         hoten = myhoten;
