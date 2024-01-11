@@ -14,7 +14,7 @@ public class SinhVien{
         hoten = c.hoten;
         tuoi = c.tuoi;
     }
-    //Khai báo các Properties
+    //Khai báo các getters/setters cho các Properties
     public void setID(string myid){id = myid;}
     public string getID(){return id;}
     public void setHoTen(string myhoten){hoten=myhoten;}
